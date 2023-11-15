@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+}
+
+.gridDiv {
+    display: flex;
+}
+
+/* 
+What to accomplish for the grid:
+Goal: 16 x 16 grid
+- container should stay at a square dimension
+- grid divs should also stay at a square dimension
+- grid divs should not shrink in any way? So I guess the container can grow but only as a square?
+but should be fine if the grid divs can't get bigger than a square, so minimum size needed
+- need to know the width sizing in order to get the grid divs to wrap/flow around at capping 16 in a row
+ */
